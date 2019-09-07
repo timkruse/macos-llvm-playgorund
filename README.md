@@ -9,6 +9,12 @@ Install LLVM/clang
 $ brew install llvm
 ```
 
+Adjust the ```LLVM_PATH``` variable in the makefile to your system
+
+```makefile
+LLVM_PATH := /usr/local/opt/llvm
+```
+
 Build and run
 ```bash
 $ make run
